@@ -6,10 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./jumbocard.component.css']
 })
 export class JumboCardComponent implements OnInit {
-
+  cities = [
+    { city: 'Abuja', places: ['Sectariat', 'Senate', 'Aso Villa', 'Headquarters', 'FCT'] },
+    { city: 'Lagos', places: ['Ikeja', 'Badagry', 'Lekki', 'Victoria Island', 'Ajah', 'Ikorodu'] },
+    { city: 'Rivers', places: ['Diobu', 'Portharcourt', 'Aba Road', 'Rumuokoro', 'Choba ', 'Waterlines', 'Agip', 'Eleme'] },
+    { city: 'Enugu', places: ['Agbani', 'Nkanu-East', 'Idodo', 'Ezeagu ', 'Nsukka'] },
+    { city: 'Taraba', places: ['Jalingo', 'Wukar', 'Gembu', 'Kashimbila ', 'Takum'] }
+  ];
+  places = [];
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() { }
 
 }
