@@ -14,6 +14,10 @@ export class JumboCardComponent implements OnInit {
     { city: 'Taraba', places: ['Jalingo', 'Wukar', 'Gembu', 'Kashimbila ', 'Takum'] }
   ];
   places = [];
+  city = '';
+  processIt() {
+    this.places = this.cities.find(city => city.city === this.city).places;
+  }
   constructor() { }
 
   ngOnInit() { }
