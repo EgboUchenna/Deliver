@@ -6,6 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./recommended.component.css']
 })
 export class RecommendedComponent implements OnInit {
+  foods = [
+    { name: 'Jollof Etcetera', rating: 4 },
+    { name: 'Jollof Etcetera', rating: 4 },
+    { name: 'Jollof Etcetera', rating: 4 },
+    { name: 'Jollof Etcetera', rating: 4 }
+  ];
 
   constructor() { }
 

@@ -1,7 +1,7 @@
 <section>
   <div class="flex-row main-center minor">
     <div class="flex-row">
-      <img src="../../assets/store.png" />
+      <img src="../../../../assets/images/store.png" />
       <p>
         Over 500
         <br />
@@ -9,7 +9,7 @@
       </p>
     </div>
     <div class="flex-row">
-      <img src="../../assets/take-away.png" />
+      <img src="../../../../assets/images/take-away.png" />
       <p>
         Over 2000
         <br />
@@ -17,7 +17,7 @@
       </p>
     </div>
     <div class="flex-row">
-      <img src="../../assets/group.png" />
+      <img src="../../../../assets/images/group.png" />
       <p>
         Over 500
         <br />
@@ -29,5 +29,9 @@
   <div class="flex-row main-center recommended">
     <h2>Recommended Resturants</h2>
     <h4>View all resturant</h4>
+  </div>
+
+  <div class="flex-row  resturant-container">
+    <app-ratingscard *ngFor="let food of foods" [food]="food"></app-ratingscard>
   </div>
 </section>
