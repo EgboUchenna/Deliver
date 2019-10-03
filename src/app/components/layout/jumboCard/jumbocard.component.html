@@ -6,11 +6,11 @@
   </h2>
   <form class="flex-row">
     <select [(ngModel)]="city" name="city" class="city" (change)="processIt()">
-      <option>Select City</option>
+      <option value="">Select City</option>
       <option *ngFor="let city of cities">{{ city.city }} </option>
     </select>
-    <select>
-      <option>Select Area</option>
+    <select [(ngModel)]="places" name="place">
+      <option value="">Select Area</option>
       <option *ngFor="let place of places">{{ place }} </option>
     </select>
     <button>Find Resturants</button>
