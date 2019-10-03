@@ -3,8 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
-import { HeaderComponent } from './layout/header/header.component';
-import { JumboCardComponent } from './cards/jumboCard/jumbocard.component';
+import { HeaderComponent } from './components/layout/header/header.component';
+import { JumboCardComponent } from './components/layout/jumboCard/jumbocard.component';
 
 @NgModule({
   declarations: [
