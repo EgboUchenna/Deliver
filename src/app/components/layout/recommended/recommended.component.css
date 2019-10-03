@@ -1,0 +1,28 @@
+.minor {
+  width: 75%;
+  margin: 2em auto;
+  justify-content: space-evenly;
+}
+.minor img {
+  max-width: 3em;
+  max-height: 3em;
+}
+.minor p {
+  margin: 0em 2em;
+  font-size: 0.8em;
+}
+.minor .flex-row {
+  align-items: center;
+}
+.recommended {
+  width: 90%;
+  margin: auto;
+}
+.recommended h2 {
+  flex-basis: 90%;
+  text-align: center;
+}
+.recommended h4 {
+  flex-basis: 20%;
+  text-align: left;
+}

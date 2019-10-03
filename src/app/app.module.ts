@@ -5,12 +5,15 @@ import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { HeaderComponent } from './components/layout/header/header.component';
 import { JumboCardComponent } from './components/layout/jumboCard/jumbocard.component';
+import { RecommendedComponent } from './components/layout/recommended/recommended.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    JumboCardComponent
+    JumboCardComponent,
+    RecommendedComponent
   ],
   imports: [
     BrowserModule,
