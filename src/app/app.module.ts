@@ -6,7 +6,8 @@ import { FormsModule } from '@angular/forms';
 import { HeaderComponent } from './components/layout/header/header.component';
 import { JumboCardComponent } from './components/layout/jumboCard/jumbocard.component';
 import { RecommendedComponent } from './components/layout/recommended/recommended.component';
-import { RatingsCardComponent } from './components/cards/restaurants/ratingsCard.component'
+import { RatingsCardComponent } from './components/cards/restaurants/ratingsCard.component';
+import { HowItWorksComponent } from './components/layout/how-it-works/how-it-works.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { RatingsCardComponent } from './components/cards/restaurants/ratingsCard
     HeaderComponent,
     JumboCardComponent,
     RecommendedComponent,
-    RatingsCardComponent
+    RatingsCardComponent,
+    HowItWorksComponent
   ],
   imports: [
     BrowserModule,
