@@ -8,6 +8,7 @@ import { JumboCardComponent } from './components/layout/jumboCard/jumbocard.comp
 import { RecommendedComponent } from './components/layout/recommended/recommended.component';
 import { RatingsCardComponent } from './components/cards/restaurants/ratingsCard.component';
 import { HowItWorksComponent } from './components/layout/how-it-works/how-it-works.component';
+import { HowItWorksCardComponent } from './components/cards/how-it-works/card.component';
 
 
 @NgModule({
@@ -15,9 +16,10 @@ import { HowItWorksComponent } from './components/layout/how-it-works/how-it-wor
     AppComponent,
     HeaderComponent,
     JumboCardComponent,
+    HowItWorksComponent,
     RecommendedComponent,
     RatingsCardComponent,
-    HowItWorksComponent
+    HowItWorksCardComponent
   ],
   imports: [
     BrowserModule,
