@@ -40,3 +40,7 @@ p {
 .cross-center {
   align-items: center;
 }
+
+.main-end {
+  justify-content: flex-end;
+}
