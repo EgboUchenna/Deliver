@@ -17,7 +17,7 @@ export class JumboCardComponent implements OnInit {
   city = '';
   place = '';
   processIt() {
-    this.places = this.cities.find(city => city.city === this.city).places;
+    this.places = this.cities.find(city => city.city === this.city) ? this.cities.find(city => city.city === this.city).places : [];
   }
   constructor() { }
 
