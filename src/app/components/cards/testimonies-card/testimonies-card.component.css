@@ -1,9 +1,8 @@
-div {
-  margin: 2em;
-}
-img,
-h3 {
+
+img {
   margin: 1em;
+  height: 160px;
+  width: 160px;
 }
 span {
   font-size: 5em;

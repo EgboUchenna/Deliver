@@ -9,6 +9,7 @@ export class TestimoniesComponent implements OnInit {
   testimonies: Array<{}> = [
     {
       content:
+        // tslint:disable: max-line-length
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam harum optio sint, perferendis vero deserunt mollitia quos nostrum eveniet nisi est saepe excepturi distinctio ipsam, tempora voluptas perspiciatis, repellat ad?',
       name: 'Customer Name'
     },
@@ -18,7 +19,7 @@ export class TestimoniesComponent implements OnInit {
       name: 'Customer Name'
     }
   ];
-  constructor() {}
+  constructor() { }
 
-  ngOnInit() {}
+  ngOnInit() { }
 }
