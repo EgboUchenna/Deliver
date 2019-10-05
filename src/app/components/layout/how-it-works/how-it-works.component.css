@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+section {
+  background: #630f24;
+  padding: 5em 5em;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  font-family: 'Roboto Slab', serif;
+}
+
+.card-container {
+  width: 70%;
+  margin: 1em auto;
+}
+
+@media screen and (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+section {
+  padding: 2em;;
+}
+section h1 {
+  margin-top: 1em;
+  margin-bottom: -1em;
+  color: #630f24;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-size: 35px;
+}
+
+.testimonies {
+  text-align: center;
+  text-align: justify;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 1023px) {
+  .testimonies {
+    flex-direction: column;
+    text-align: justify;
+  }
+}
+@media screen and (min-width: 1024px) {
+  section {
+    margin-top: 3em;
+  }
+  .testimonies {
+    width: 70%;
+    margin: 3em auto;
+  }
+}

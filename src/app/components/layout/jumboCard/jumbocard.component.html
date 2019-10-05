@@ -1,0 +1,18 @@
+<section class="flex-column main-center cross-center">
+  <h2>
+    Food Delivery Directly
+    <br />
+    To Your Door Step
+  </h2>
+  <form class="flex-row">
+    <select [(ngModel)]="city" name="city" class="city" (change)="processIt()">
+      <option value="">Select City</option>
+      <option *ngFor="let city of cities">{{ city.city }} </option>
+    </select>
+    <select [(ngModel)]="places" name="place">
+      <option value="">Select Area</option>
+      <option *ngFor="let place of places">{{ place }} </option>
+    </select>
+    <button>Find Resturants</button>
+  </form>
+</section>
