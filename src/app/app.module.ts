@@ -12,6 +12,9 @@ import { HowItWorksComponent } from './components/layout/how-it-works/how-it-wor
 import { HowItWorksCardComponent } from './components/cards/how-it-works/card.component';
 import { PopularResturantsComponent } from './components/layout/popular-resturants/popular-resturants.component';
 import { DownloadAppComponent } from './components/layout/download-app/download-app.component';
+import { TestimoniesComponent } from './components/layout/testimonies/testimonies.component';
+import { TestimoniesCardComponent } from './components/cards/testimonies-card/testimonies-card.component';
+
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -25,10 +28,12 @@ import { AppRoutingModule } from './app-routing.module';
     HeaderComponent,
     JumboCardComponent,
     HowItWorksComponent,
+    TestimoniesComponent,
     RatingsCardComponent,
     RecommendedComponent,
     DownloadAppComponent,
     HowItWorksCardComponent,
+    TestimoniesCardComponent,
     PopularResturantsComponent,
 
   ],
