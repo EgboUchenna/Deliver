@@ -14,6 +14,8 @@ import { PopularResturantsComponent } from './components/layout/popular-resturan
 import { DownloadAppComponent } from './components/layout/download-app/download-app.component';
 import { TestimoniesComponent } from './components/layout/testimonies/testimonies.component';
 import { TestimoniesCardComponent } from './components/cards/testimonies-card/testimonies-card.component';
+import { FooterComponent } from './components/layout/footer/footer.component';
+
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -26,6 +28,7 @@ import { AppRoutingModule } from './app-routing.module';
     AppComponent,
     HomeComponent,
     HeaderComponent,
+    FooterComponent,
     JumboCardComponent,
     HowItWorksComponent,
     TestimoniesComponent,
