@@ -11,6 +11,8 @@ import { RatingsCardComponent } from './components/cards/restaurants/ratingsCard
 import { HowItWorksComponent } from './components/layout/how-it-works/how-it-works.component';
 import { HowItWorksCardComponent } from './components/cards/how-it-works/card.component';
 import { PopularResturantsComponent } from './components/layout/popular-resturants/popular-resturants.component';
+import { DownloadAppComponent } from './components/layout/download-app/download-app.component';
+
 import { AppRoutingModule } from './app-routing.module';
 
 
@@ -25,8 +27,9 @@ import { AppRoutingModule } from './app-routing.module';
     HowItWorksComponent,
     RatingsCardComponent,
     RecommendedComponent,
+    DownloadAppComponent,
     HowItWorksCardComponent,
-    PopularResturantsComponent
+    PopularResturantsComponent,
 
   ],
   imports: [
