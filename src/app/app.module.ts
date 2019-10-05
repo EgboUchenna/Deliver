@@ -3,27 +3,36 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
+import { HomeComponent } from './components/layout/home/home.component';
 import { HeaderComponent } from './components/layout/header/header.component';
 import { JumboCardComponent } from './components/layout/jumboCard/jumbocard.component';
 import { RecommendedComponent } from './components/layout/recommended/recommended.component';
 import { RatingsCardComponent } from './components/cards/restaurants/ratingsCard.component';
 import { HowItWorksComponent } from './components/layout/how-it-works/how-it-works.component';
 import { HowItWorksCardComponent } from './components/cards/how-it-works/card.component';
+import { PopularResturantsComponent } from './components/layout/popular-resturants/popular-resturants.component';
+import { AppRoutingModule } from './app-routing.module';
+
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    HomeComponent,
     HeaderComponent,
     JumboCardComponent,
     HowItWorksComponent,
-    RecommendedComponent,
     RatingsCardComponent,
-    HowItWorksCardComponent
+    RecommendedComponent,
+    HowItWorksCardComponent,
+    PopularResturantsComponent
+
   ],
   imports: [
+    FormsModule,
     BrowserModule,
-    FormsModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
