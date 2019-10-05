@@ -1,6 +1,7 @@
 header {
   font-size: 0.7em;
 }
+
 .toolbar {
   display: flex;
   background-color: #630f24;
@@ -8,12 +9,17 @@ header {
   align-items: center;
   justify-content: center;
   background-color: #630f24;
+  padding: 3rem;
+  margin: auto;
 }
 img {
-  width: 20px;
-  height: 20px;
+  width: 80px;
+  height: 40px;
 }
-
+.flex-row {
+  padding-top: 5px;
+  line-height: 30px;
+}
 li {
   list-style-type: none;
   padding: 0.5em 0.3em;

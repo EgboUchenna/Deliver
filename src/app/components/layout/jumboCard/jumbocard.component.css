@@ -36,3 +36,23 @@ button {
   background: #420000;
   color: #fff;
 }
+
+@media screen and (min-width: 1024px) {
+  section {
+    background-size: contain;
+    background-repeat: round;
+  }
+  h2 {
+    font-size: 2em;
+  }
+
+  select,
+  button {
+    flex-basis: 33%;
+    font-size: 1.3em;
+  }
+
+  form {
+    width: 60%;
+  }
+}
